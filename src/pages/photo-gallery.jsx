@@ -1,6 +1,7 @@
 import Metatags from '../components/Metatags'
 import styles from '../styles/InfoPage.module.scss'
-import { items } from "../lib/photo-gallery"
+import { items } from "@/lib/photo-gallery"
+import Image from "next/image";
 
 export default function ToolsResources() {
   return (<>
@@ -17,13 +18,13 @@ export default function ToolsResources() {
               <h2>{item.title}</h2>
             </div>
             <div>
-            {item.icon && <img src={item.icon} width={item.width} height={item.height} alt={`${item.title} logo`}/>}
+            {item.icon && <Image src={item.icon} width={item.width} height={item.height} alt={`${item.title} logo`}/>}
             </div>
             <p>{item.description}</p>
           </div>
-          <a href={item.link} target="_blank">
+          <a href={item.link} target="_blank" rel="noreferrer">
             <span>{item.displayLink}</span>
-            <img src="../media/arrow.svg"/>
+            <Image src="../media/arrow.svg" alt="arrow"/>
           </a>
         </article>)
       })}
