@@ -5,6 +5,7 @@ import React, { useLayoutEffect, useRef } from "react";
 
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -296,12 +297,12 @@ export default function Home() {
               <article className="link2">
                 <div className={styles.outer}>
                   <h2>blog/news</h2>
-                  <img src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
+                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
                 </div>
                 <div className={styles.inner}>
-                  <img src="/media/idea.svg" alt="Lightbulb idea icon"/>
+                  <Image src="/media/idea.svg" alt="Lightbulb idea icon"/>
                   <div>
-                    <h3>         WHSO updates                      </h3>
+                    <h3>         MWSO updates                      </h3>
                     <h3>          blog/news                </h3>
                   </div>
                 </div>
@@ -311,10 +312,10 @@ export default function Home() {
               <article className="link1">
                 <div className={styles.outer}>
                   <h2>photo gallery</h2>
-                  <img src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
+                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
                 </div>
                 <div className={styles.inner}>
-                  <img src="/media/tools.svg" alt="Tools icon"/>
+                  <Image src="/media/tools.svg" alt="Tools icon"/>
                   <div>
                     <h3>             see stuff           </h3>
                     <h3>          also kevin          </h3>
@@ -328,12 +329,12 @@ export default function Home() {
               <article className="link3">
                 <div className={styles.outer} >
                   <h2>give us money</h2>
-                  <img src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
+                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
                 </div>
                 <div className={styles.inner}>
-                  <img src="/media/people.svg" alt="People icon"/>
+                  <Image src="/media/people.svg" alt="People icon"/>
                   <div>
-                    <h3>   we're broke         </h3>
+                    <h3>   we&#39;re broke         </h3>
                     <h3>         give $$$            </h3>
 
                   </div>
@@ -365,7 +366,7 @@ export default function Home() {
           </article>
           <article className="more4">
             <h2 className="more41">Legacy of Success</h2>
-            <p className="more42"> MWSO is one of the nation's premier Science Olympiad teams, and has been since the program's inception. Our achievements include: <br />
+            <p className="more42"> MWSO is one of the nation&#39;s premier Science Olympiad teams, and has been since the program&#39;s inception. Our achievements include: <br />
             - Champions of every regional tournament we have competed in (2004-2020, 2023) <br />
             - 19 Wisconsin State championships (1987, 1989, 1992, 1993, 2001-2007, 2010, 2012, 2013, 2018, 2019) <br />
             - 24 National Tournament appearances (1985-1993, 2001-2007, 2010, 2012, 2013, 2018, 2019) <br />
@@ -388,7 +389,7 @@ export default function Home() {
           </article>
           <article className="more8">
             <h2 className="more81">How to Contribute</h2>
-            <p className="more82">If you would like to support West's efforts to progress youth in STEM fields, you can donate to the program here: </p>
+            <p className="more82">If you would like to support West&#39;s efforts to progress youth in STEM fields, you can donate to the program here: </p>
           </article>
 
         </section>
