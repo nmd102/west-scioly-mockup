@@ -1,7 +1,7 @@
 import Metatags from '../components/Metatags'
 import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
-import React, { useLayoutEffect, useRef } from "react";
+import React, {useEffect, useRef} from "react";
 
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -13,7 +13,7 @@ export default function Home() {
   const root = useRef();
   const upText = useRef();
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     let ctx = gsap.context(() => {
       gsap.to(".your", {
         y: "10vh",
@@ -297,10 +297,10 @@ export default function Home() {
               <article className="link2">
                 <div className={styles.outer}>
                   <h2>blog/news</h2>
-                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
+                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
                 </div>
                 <div className={styles.inner}>
-                  <Image src="/media/idea.svg" alt="Lightbulb idea icon"/>
+                  <Image src="/media/idea.svg" alt="Lightbulb idea icon" width={500} height={500}/>
                   <div>
                     <h3>         MWSO updates                      </h3>
                     <h3>          blog/news                </h3>
@@ -312,10 +312,10 @@ export default function Home() {
               <article className="link1">
                 <div className={styles.outer}>
                   <h2>photo gallery</h2>
-                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
+                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
                 </div>
                 <div className={styles.inner}>
-                  <Image src="/media/tools.svg" alt="Tools icon"/>
+                  <Image src="/media/tools.svg" alt="Tools icon" width={500} height={500}/>
                   <div>
                     <h3>             see stuff           </h3>
                     <h3>          also kevin          </h3>
@@ -329,10 +329,10 @@ export default function Home() {
               <article className="link3">
                 <div className={styles.outer} >
                   <h2>give us money</h2>
-                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right"/>
+                  <Image src="/media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
                 </div>
                 <div className={styles.inner}>
-                  <Image src="/media/people.svg" alt="People icon"/>
+                  <Image src="/media/people.svg" alt="People icon" width={500} height={500}/>
                   <div>
                     <h3>   we&#39;re broke         </h3>
                     <h3>         give $$$            </h3>

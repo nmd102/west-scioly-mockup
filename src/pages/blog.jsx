@@ -12,7 +12,7 @@ export default function Learn() {
     </header>
     <main className={`${styles.main} ${styles.lessons}`}>
       {items.map((item, key) => {
-        return (<Link key={key} href={`./blog/${item.slug}`}>
+        return (<Link key={key} href={`blog/${item.slug}`}>
           <button className={styles.lessonCard}>
             <Image src={item.img} alt={item.title}/>
             <h2>{item.title}</h2>

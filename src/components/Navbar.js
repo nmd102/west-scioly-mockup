@@ -5,11 +5,11 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-import React, { useLayoutEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function Navbar() {
     const nav = useRef();
-    useLayoutEffect(() => {
+    useEffect(() => {
         gsap.to(nav.current, {
             y: "8vh",
             scrollTrigger: { //error here
@@ -22,9 +22,9 @@ export default function Navbar() {
     }, []);
     return (
         <nav ref={nav}>
-            <a href="https://df8c5c15-c17c-47fc-b674-5801a2659db1-00-2c6nzukpa16ep.hacker.replit.dev" className="logo">
+            <Link href="" className="logo">
                 <h2>[West<span className="oring"> Sci O</span><span className="close">]</span></h2>
-            </a>
+            </Link>
             <div className="navLinks">
                 <Link href="blog">
                     <span>blog/news</span>
