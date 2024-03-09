@@ -14,7 +14,7 @@ export default function Learn() {
       {items.map((item, key) => {
         return (<Link key={key} href={`blog/${item.slug}`}>
           <button className={styles.lessonCard}>
-            <Image src={item.img} alt={item.title}/>
+            <Image src={item.img} alt={item.title} width={100} height={100}/>
             <h2>{item.title}</h2>
             <p>{item.description}</p>
           </button>
