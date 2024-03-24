@@ -297,10 +297,10 @@ export default function Home() {
               <article className="link2">
                 <div className={styles.outer}>
                   <h2>blog/news</h2>
-                  <Image src="/west-scioly-mockup/media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
+                  <Image src="./media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
                 </div>
                 <div className={styles.inner}>
-                  <Image src="/west-scioly-mockup/media/idea.svg" alt="Lightbulb idea icon" width={500} height={500}/>
+                  <Image src="./media/idea.svg" alt="Lightbulb idea icon" width={500} height={500}/>
                   <div>
                     <h3>         MWSO updates                      </h3>
                     <h3>          blog/news                </h3>
@@ -312,10 +312,10 @@ export default function Home() {
               <article className="link1">
                 <div className={styles.outer}>
                   <h2>photo gallery</h2>
-                  <Image src="/west-scioly-mockup/media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
+                  <Image src="./media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
                 </div>
                 <div className={styles.inner}>
-                  <Image src="/west-scioly-mockup/media/tools.svg" alt="Tools icon" width={500} height={500}/>
+                  <Image src="./media/tools.svg" alt="Tools icon" width={500} height={500}/>
                   <div>
                     <h3>             see stuff           </h3>
                     <h3>          also kevin          </h3>
@@ -329,10 +329,10 @@ export default function Home() {
               <article className="link3">
                 <div className={styles.outer} >
                   <h2>give us money</h2>
-                  <Image src="/west-scioly-mockup/media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
+                  <Image src="./media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
                 </div>
                 <div className={styles.inner}>
-                  <Image src="/west-scioly-mockup/media/people.svg" alt="People icon" width={500} height={500}/>
+                  <Image src="./media/people.svg" alt="People icon" width={500} height={500}/>
                   <div>
                     <h3>   we&#39;re broke         </h3>
                     <h3>         give $$$            </h3>
