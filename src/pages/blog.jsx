@@ -1,5 +1,5 @@
 import Metatags from '../components/Metatags'
-import styles from '../styles/InfoPage.module.scss'
+import styles from '../styles/InfoPage.module.css'
 import Link from 'next/link';
 import { items } from "@/lib/blog"
 import Image from 'next/image'

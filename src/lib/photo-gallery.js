@@ -1,10 +1,10 @@
-var PATH = "media/_PHOTOSHERE/";
+let PATH = "media/_PHOTOSHERE/";
 export const items = [
   {
     title: "imagine if",
     icon: PATH + "IMG_1270.webp",
-    width: "500px",
-    height: "500px",
+    width: "500",
+    height: "500",
     description: "funny caption",
     link: "https://example.com",
     displayLink: "example.com"
@@ -13,6 +13,8 @@ export const items = [
     title: "kevin bao 2023",
     icon: PATH + "kevin.JPG",
     description: "kevin for president",
+    width: 500,
+    height: 500
   }
 
 ]

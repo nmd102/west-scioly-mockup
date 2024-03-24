@@ -1,0 +1,65 @@
+#page {
+  padding: 10rem 7vw 1rem 7vw;
+}
+#page #content {
+  max-width: 60rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 2rem 3rem;
+}
+#page #content h1, #page #content h2, #page #content h3, #page #content h4, #page #content h5 {
+  margin: 1rem 0 0 0;
+}
+#page #content h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+#page #content p {
+  line-height: 1.5em;
+  margin-top: 0.25em;
+}
+#page #content pre {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 1.2rem 2rem 1rem 0;
+  font-size: 0.9rem;
+}
+#page #content a {
+  text-decoration: underline rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+  color: inherit;
+}
+#page #content a:hover {
+  cursor: pointer;
+  text-decoration: underline black;
+}
+#page #content iframe {
+  margin: 0 0 1rem 0;
+}
+
+#bottomButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+#bottomButtons button {
+  border: 1px solid black;
+  border-radius: 5rem;
+  font: inherit;
+  padding: 0.2rem 2rem;
+  background: transparent;
+  transition: 0.2s ease-in-out;
+}
+#bottomButtons button:not([disabled]):hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(0.99);
+}
+#bottomButtons button:not([disabled]):active {
+  transform: scale(0.95);
+}
+
+/*# sourceMappingURL=Lessons.module.css.map */

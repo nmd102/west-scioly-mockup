@@ -1,0 +1,2145 @@
+@keyframes fade-down {
+  from {
+    opacity: 0;
+    bottom: 3rem;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+.header {
+  padding: 9rem 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.header h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 800;
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.header p {
+  max-width: 35rem;
+  margin: 0;
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+
+.main {
+  background: #191919;
+  color: white;
+  display: grid;
+  gap: 2rem 4rem;
+  padding: 4rem 7vw;
+}
+.main article {
+  box-sizing: border-box;
+}
+
+.tr {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1150px) {
+  .tr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .tr {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.tr .trCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+}
+.tr .trCard:nth-of-type(1) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(2) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(3) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(4) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(5) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(6) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(7) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(8) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(9) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(10) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(11) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(12) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(13) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(14) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(15) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(16) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(17) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(18) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(19) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(20) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(21) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(22) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(23) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(24) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(25) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(26) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(27) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(28) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(29) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(30) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(31) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(32) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(33) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(34) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(35) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(36) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(37) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(38) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(39) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(40) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(41) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(42) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(43) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(44) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(45) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(46) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(47) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(48) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(49) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard:nth-of-type(50) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.tr .trCard div {
+  margin-bottom: 1.5rem;
+}
+.tr .trCard div div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+.tr .trCard div div img {
+  max-height: 2.5rem;
+  margin-right: 0.5rem;
+}
+.tr .trCard div div h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.tr .trCard div p {
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.tr .trCard a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.tr .trCard a img {
+  max-height: 1.2rem;
+  filter: invert(1);
+  transition: 0.2s ease-in-out;
+}
+.tr .trCard a span {
+  font-size: 0.95rem;
+  font-weight: 200;
+  transition: 0.2s ease-in-out;
+}
+.tr .trCard a:hover img {
+  opacity: 0.2;
+}
+.tr .trCard a:hover span {
+  opacity: 0.7;
+}
+
+.inspiration {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem 6rem;
+  padding: 5rem 7vw;
+}
+@media (max-width: 700px) {
+  .inspiration {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.inspiration .inspirationCard {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+}
+.inspiration .inspirationCard:nth-of-type(1) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(2) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(3) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(4) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(5) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(6) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(7) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(8) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(9) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(10) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(11) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(12) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(13) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(14) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(15) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(16) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(17) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(18) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(19) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(20) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(21) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(22) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(23) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(24) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(25) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(26) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(27) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(28) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(29) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(30) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(31) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(32) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(33) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(34) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(35) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(36) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(37) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(38) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(39) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(40) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(41) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(42) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(43) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(44) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(45) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(46) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(47) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(48) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(49) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard:nth-of-type(50) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.inspiration .inspirationCard .mainImage {
+  max-width: 100%;
+  border-radius: 1rem;
+  transition: 0.5s ease-in-out;
+}
+.inspiration .inspirationCard div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.inspiration .inspirationCard div h2 {
+  margin: 0.5rem 0 0 0;
+  font-size: 2.5rem;
+  transition: 0.3s ease-in-out;
+}
+.inspiration .inspirationCard div img {
+  height: 1.5rem;
+  opacity: 0.25;
+  transition: 0.3s ease-in-out;
+}
+.inspiration .inspirationCard p {
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.5;
+  transition: 0.3s ease-in-out;
+}
+.inspiration .inspirationCard:hover .mainImage {
+  transform: scale(0.99);
+  opacity: 0.9;
+}
+.inspiration .inspirationCard:hover div img {
+  opacity: 1;
+}
+.inspiration .inspirationCard:hover h2 {
+  opacity: 0.8;
+}
+.inspiration .inspirationCard:hover p {
+  opacity: 0.8;
+}
+.inspiration .inspirationCard:active {
+  transform: scale(0.98);
+}
+
+.pa {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem 6rem;
+  padding: 5rem 7vw;
+}
+@media (max-width: 1500px) {
+  .pa {
+    grid-template-columns: 1fr;
+  }
+}
+.pa .paCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem 3rem;
+}
+.pa .paCard:nth-of-type(1) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(2) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(3) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(4) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(5) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(6) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(7) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(8) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(9) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(10) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(11) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(12) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(13) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(14) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(15) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(16) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(17) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(18) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(19) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(20) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(21) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(22) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(23) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(24) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(25) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(26) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(27) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(28) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(29) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(30) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(31) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(32) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(33) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(34) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(35) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(36) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(37) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(38) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(39) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(40) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(41) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(42) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(43) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(44) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(45) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(46) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(47) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(48) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(49) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard:nth-of-type(50) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.pa .paCard h2 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 3rem;
+}
+@media (max-width: 400px) {
+  .pa .paCard h2 {
+    font-size: 2.25rem;
+  }
+}
+.pa .paCard .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.pa .paCard .tags span {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  padding: 0.1rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.pa .paCard p {
+  line-height: 1.5;
+  margin: 0.5rem 0 1rem 0;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.pa .paCard .info {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .pa .paCard .info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+.pa .paCard .info div, .pa .paCard .info .webLink {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 700px) {
+  .pa .paCard .info div, .pa .paCard .info .webLink {
+    align-items: center;
+    text-align: center;
+  }
+}
+.pa .paCard .info div h3, .pa .paCard .info .webLink h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+@media (max-width: 400px) {
+  .pa .paCard .info div h3, .pa .paCard .info .webLink h3 {
+    font-size: 1.25rem;
+  }
+}
+.pa .paCard .info div p, .pa .paCard .info .webLink p {
+  margin: 0;
+}
+.pa .paCard .info .webLink {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.pa .paCard .info .webLink:hover {
+  transform: scale(0.97) rotate(0.5deg);
+  opacity: 0.8;
+}
+.pa .paCard .info .socials {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+.pa .paCard .info .socials img {
+  height: 1.25rem;
+  margin-top: 0.2rem;
+  transition: 0.3s ease-in-out;
+}
+.pa .paCard .info .socials img:hover {
+  transform: scale(0.95) rotate(5deg);
+  opacity: 0.8;
+}
+.pa .paCard:nth-of-type(1) {
+  background: black;
+}
+
+.button {
+  border-radius: 16px;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+
+.lessons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1400px) {
+  .lessons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .lessons {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.lessons .lessonCard {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  background: transparent;
+  font: inherit;
+  color: white;
+  text-align: left;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lessons .lessonCard:nth-of-type(1) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(2) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 1.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(3) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(4) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(5) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 2.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(6) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(7) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(8) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 3.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(9) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(10) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(11) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 4.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(12) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(13) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(14) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 5.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(15) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(16) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(17) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 6.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(18) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(19) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(20) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 7.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(21) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(22) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(23) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 8.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(24) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(25) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(26) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 9.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(27) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(28) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(29) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 10.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(30) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(31) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(32) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 11.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(33) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(34) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(35) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 12.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(36) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(37) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(38) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 13.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(39) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(40) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(41) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 14.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(42) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(43) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(44) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 15.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(45) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(46) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(47) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 16.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(48) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.25s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(49) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.5833333333s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard:nth-of-type(50) {
+  animation-name: fade-down;
+  animation-duration: 1s;
+  animation-delay: 17.9166666667s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.lessons .lessonCard h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+.lessons .lessonCard p {
+  margin: 0;
+}
+.lessons .lessonCard img {
+  position: absolute;
+  opacity: 0.05;
+  height: 120%;
+  left: -20%;
+  transition: 0.2s ease-in-out;
+}
+.lessons .lessonCard:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+}
+.lessons .lessonCard:hover img {
+  left: -15%;
+  transform: rotate(10deg);
+}
+
+/*# sourceMappingURL=InfoPage.module.css.map */

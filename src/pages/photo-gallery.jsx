@@ -1,5 +1,5 @@
 import Metatags from '../components/Metatags'
-import styles from '../styles/InfoPage.module.scss'
+import styles from '../styles/InfoPage.module.css'
 import { items } from "@/lib/photo-gallery"
 import Image from "next/image";
 
@@ -24,7 +24,7 @@ export default function ToolsResources() {
           </div>
           <a href={item.link} target="_blank" rel="noreferrer">
             <span>{item.displayLink}</span>
-            <Image src="../media/arrow.svg" alt="arrow"/>
+            <Image src="media/arrow.svg" alt="arrow" width={100} height={100}/>
           </a>
         </article>)
       })}

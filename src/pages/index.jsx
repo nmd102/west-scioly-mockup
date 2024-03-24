@@ -1,6 +1,6 @@
 import Metatags from '../components/Metatags'
 import Link from 'next/link'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/Home.module.css'
 import React, {useEffect, useRef} from "react";
 
 import { gsap } from "gsap/dist/gsap";
@@ -290,7 +290,7 @@ export default function Home() {
           {Array(30).fill(true).map((_, i) => <span key={i}>[W]</span>)}
         </span>
       </header>
-      <main id={styles.main}>
+      <main id={styles.main} className={"hidden"}>
         <section id={styles.gridSection}>
           <div id={styles.grid}>
             <Link href="/blog">

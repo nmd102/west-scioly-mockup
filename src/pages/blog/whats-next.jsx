@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Metatags from "../../components/Metatags"
-import styles from '../../styles/Lessons.module.scss'
+import styles from '../../styles/Lessons.module.css'
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 

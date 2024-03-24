@@ -1,5 +1,5 @@
 import Metatags from '../components/Metatags'
-import styles from '../styles/InfoPage.module.scss'
+import styles from '../styles/InfoPage.module.css'
 import { items } from "@/lib/sponsors"
 import Image from "next/image"; // <- error here
 
@@ -32,10 +32,18 @@ export default function PeopleAgencies() {
             <div>
               <h3>Socials</h3>
               <div className={styles.socials}>
-                {item.socials.email && <a href={item.socials.email.link} target="_blank" rel="noreferrer"><Image src="/media/pa/email.svg" alt="Email Icon"/></a>}
-                {item.socials.github && <a href={item.socials.github.link} target="_blank" rel="noreferrer"><Image src="/media/pa/github.svg" alt="Github Logo"/></a>}
-                {item.socials.instagram && <a href={item.socials.instagram.link} target="_blank" rel="noreferrer"><Image src="/media/pa/instagram.svg" alt="Instagram Logo"/></a>}
-                {item.socials.discord && <a href={item.socials.discord.link} target="_blank" rel="noreferrer"><Image src="/media/pa/discord.svg" alt="Discord Logo"/></a>}
+                {item.socials.email && <a href={item.socials.email.link} target="_blank" rel="noreferrer">
+                  <Image src="/media/pa/email.svg" alt="Email Icon" width={50} height={50}/>
+                </a>}
+                {item.socials.github && <a href={item.socials.github.link} target="_blank" rel="noreferrer">
+                  <Image src="/media/pa/github.svg" alt="Github Logo" width={50} height={50}/>
+                </a>}
+                {item.socials.instagram && <a href={item.socials.instagram.link} target="_blank" rel="noreferrer">
+                  <Image src="/media/pa/instagram.svg" alt="Instagram Logo" width={50} height={50}/>
+                </a>}
+                {item.socials.discord && <a href={item.socials.discord.link} target="_blank" rel="noreferrer">
+                  <Image src="/media/pa/discord.svg" alt="Discord Logo" width={50} height={50}/>
+                </a>}
               </div>
             </div>
             <div>
