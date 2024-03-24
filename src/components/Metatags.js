@@ -7,7 +7,7 @@ import Head from 'next/head';
 export default function Metatags({
                                      title = 'West Science Olympiad',
                                      description = 'Official Site for West High Science Olympiad, a Science Olympiad team based in Madison, Wisconsin',
-                                     image = './favicon.ico',
+                                     image = './public/favicon.ico',
                                  }) {
     return (
         <Head>
