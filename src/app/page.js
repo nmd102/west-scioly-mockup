@@ -1,5 +1,4 @@
 'use client'
-import Metatags from '../components/Metatags'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import React, {useEffect, useRef} from "react";
@@ -274,7 +273,6 @@ export default function Home() {
 
     return (
         <div ref={root}>
-            <Metatags/>
             <header id={styles.header} className="header">
                 <h1>
           <span id={styles.heroTxt}>

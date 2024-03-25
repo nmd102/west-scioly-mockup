@@ -1,11 +1,15 @@
-import Metatags from '../../components/Metatags'
 import styles from '../../styles/InfoPage.module.css'
 import Link from 'next/link';
 import { items } from "@/lib/blog"
 import Image from 'next/image'
-export default function Learn() {
+
+export const metadata = {
+    title: "Blog | [WHSO]",
+    description: "Follow the latest WHSO updates"
+}
+
+export default function Blog() {
     return (<>
-        <Metatags title="Blog| [WHSO]" description="follow the latest WHSO updates"/>
         <header className={styles.header}>
             <h1>Blog and News</h1>
             <p>Follow the recent WHSO updates</p>

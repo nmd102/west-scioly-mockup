@@ -1,10 +1,13 @@
-import Metatags from '../../components/Metatags'
 import styles from '../../styles/InfoPage.module.css'
 import { items } from "@/lib/sponsors"
 import Image from "next/image"; // <- error here
-export default function PeopleAgencies() {
+
+export const metadata = {
+    title: "Sponsors | [WHSO]",
+    description: "Find cool people who gave use money"
+}
+export default function Sponsors() {
     return (<>
-        <Metatags title="Sponsors | [WHSO]" description="find cool people who gave us money"/>
         <header className={styles.header}>
             <h1>Sponsors</h1>
             <p>w sponsors check out their websites</p>

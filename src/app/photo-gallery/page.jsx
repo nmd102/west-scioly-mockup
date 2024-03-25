@@ -1,11 +1,14 @@
-import Metatags from '../../components/Metatags'
 import styles from '../../styles/InfoPage.module.css'
 import { items } from "@/lib/photo-gallery"
 import Image from "next/image";
 
-export default function ToolsResources() {
+export const metadata = {
+    title: "Photo Gallery | [WHSO]",
+    description: "Photo Gallery"
+}
+
+export default function PhotoGallery() {
     return (<>
-        <Metatags title="Photo Gallery | [WHSO]" description="Photo gallery"/>
         <header className={styles.header}>
             <h1>photo gallery</h1>
             <p>jayden take photos please also kevin freestyle here soon</p>
