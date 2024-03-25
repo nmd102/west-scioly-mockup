@@ -206,4 +206,15 @@ footer .signature img:hover {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.navLinks a:link {
+  color: black;
+}
+
+.navLinks a:visited {
+  color: black;
+}
+
+a.signature:link, a.signature:visited {
+  color: black;
+}
 /*# sourceMappingURL=globals.css.map */

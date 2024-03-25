@@ -1,6 +1,6 @@
 import styles from '../../styles/InfoPage.module.css'
 import { items } from "@/lib/sponsors"
-import Image from "next/image"; // <- error here
+import Image from "next/image";
 
 export const metadata = {
     title: "Sponsors | [WHSO]",
@@ -12,7 +12,9 @@ export default function Sponsors() {
             <h1>Sponsors</h1>
             <p>w sponsors check out their websites</p>
             <br></br>
-            <button className={styles.button}><h3><strong>click here to donate</strong></h3></button>
+            <a href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                <button className={styles.button}><h3><strong>click here to donate</strong></h3></button>
+            </a>
         </header>
         <main className={`${styles.main} ${styles.pa}`}>
             {items.map((item, key) => {

@@ -290,11 +290,11 @@ export default function Home() {
           {Array(30).fill(true).map((_, i) => <span key={i}>[W]</span>)}
         </span>
             </header>
-            <main id={styles.main} className={"hidden"}>
+            <main id={styles.main}>
                 <section id={styles.gridSection}>
                     <div id={styles.grid}>
                         <Link href="/blog">
-                            <article className="link2">
+                            <article className={"link2"}>
                                 <div className={styles.outer}>
                                     <h2>blog/news</h2>
                                     <Image src="./media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50} height={50}/>
@@ -380,8 +380,8 @@ export default function Home() {
                         <p className="more52">MWSO provides avenues for students to exceed the farthest reaches of their potential. Our alumni have created differences in the world as research scientists, Smithsonian curators, educators, diplomats, and experts in many more careers. These alumni regularly return to be involved in the Science Olympiad program.</p>
                     </article>
                     <article className="more6">
-                        <h2 className="more21"><strong>Badger Invitational</strong></h2>
-                        <p className="more22">Each February, MWSO, working with Hamilton Science Olympiad, hosts an invitational tournament known as Badger Invitational. If you would like more information on this tournament, please contact</p>
+                        <h2 className="more61"><strong>Badger Invitational</strong></h2>
+                        <p className="more62">Each February, MWSO, working with Hamilton Science Olympiad, hosts an invitational tournament known as Badger Invitational. If you would like more information on this tournament, please contact</p>
                     </article>
                     <article className="more7">
                         <h2 className="more71">Our Sponsors</h2>
@@ -389,7 +389,7 @@ export default function Home() {
                     </article>
                     <article className="more8">
                         <h2 className="more81">How to Contribute</h2>
-                        <p className="more82">If you would like to support West&#39;s efforts to progress youth in STEM fields, you can donate to the program here: </p>
+                        <p className="more82">If you would like to support West&#39;s efforts to progress youth in STEM fields, you can donate to the program <Link href={"/sponsors"}>here</Link></p>
                     </article>
 
                 </section>
