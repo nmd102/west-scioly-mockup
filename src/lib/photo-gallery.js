@@ -3,8 +3,8 @@ export const items = [
   {
     title: "imagine if",
     icon: PATH + "IMG_1270.webp",
-    width: "500",
-    height: "500",
+    width: 500,
+    height: 500 ,
     description: "funny caption",
     link: "https://example.com",
     displayLink: "example.com"
