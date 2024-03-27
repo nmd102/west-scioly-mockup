@@ -10,8 +10,6 @@ export const items = [
     website: "https://example.com",
     link: "https://example.com",
     socials: {
-
-
       discord: {link: "https://discord.com/users/"},
     },
     price: "they gave us $12345"
