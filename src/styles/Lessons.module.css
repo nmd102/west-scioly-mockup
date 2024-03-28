@@ -61,5 +61,8 @@
 #bottomButtons button:not([disabled]):active {
   transform: scale(0.95);
 }
+#bottomButtons button:disabled {
+  cursor: not-allowed;
+}
 
 /*# sourceMappingURL=Lessons.module.css.map */

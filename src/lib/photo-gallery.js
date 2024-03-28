@@ -1,4 +1,4 @@
-let PATH = "media/_PHOTOSHERE/";
+let PATH = "media/photo_gallery/";
 export const items = [
   {
     title: "imagine if",

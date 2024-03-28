@@ -37,16 +37,16 @@ export default function Sponsors() {
                             <h3>Socials</h3>
                             <div className={styles.socials}>
                                 {item.socials.email && <a href={item.socials.email.link} target="_blank" rel="noreferrer">
-                                    <Image src="./media/pa/email.svg" alt="Email Icon" width={50} height={50}/>
+                                    <Image src="./media/socials/email.svg" alt="Email Icon" width={50} height={50}/>
                                 </a>}
                                 {item.socials.github && <a href={item.socials.github.link} target="_blank" rel="noreferrer">
-                                    <Image src="./media/pa/github.svg" alt="Github Logo" width={50} height={50}/>
+                                    <Image src="./media/socials/github.svg" alt="Github Logo" width={50} height={50}/>
                                 </a>}
                                 {item.socials.instagram && <a href={item.socials.instagram.link} target="_blank" rel="noreferrer">
-                                    <Image src="./media/pa/instagram.svg" alt="Instagram Logo" width={50} height={50}/>
+                                    <Image src="./media/socials/instagram.svg" alt="Instagram Logo" width={50} height={50}/>
                                 </a>}
                                 {item.socials.discord && <a href={item.socials.discord.link} target="_blank" rel="noreferrer">
-                                    <Image src="./media/pa/discord.svg" alt="Discord Logo" width={50} height={50}/>
+                                    <Image src="./media/socials/discord.svg" alt="Discord Logo" width={50} height={50}/>
                                 </a>}
                             </div>
                         </div>
