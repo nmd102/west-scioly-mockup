@@ -6,12 +6,8 @@ import Link from 'next/link'
 
 
 export function generateStaticParams() {
-    let paths = [];
-    for (const path in blogs) {
-        paths.push({"id": path})
-        console.log(path);
-    }
-    return paths;
+    return Object.keys(blogs)
+        .map((value) => ({id: value}))
 }
 
 export let metadata = {

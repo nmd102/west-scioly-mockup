@@ -261,7 +261,7 @@ export default function Home() {
                     }
                 })
             } else {
-                if (localStorage.getItem('alertShown')) {} else {
+                if (!localStorage.getItem('alertShown')) {
                     alert("Thanks for visiting. Use a larger screen or computer for a better experience.")
                     localStorage.setItem('alertShown', true)
                 }

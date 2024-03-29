@@ -1,12 +1,18 @@
 {
-  "whats-next": {
-    "title": "What's Next?",
-    "content": "NATS!!! We're gonna win state this time, beat those marquette private school kids",
-    "previous": "mit-accepted"
-  },
   "mit-accepted": {
     "title": "Madison West gets accepted into MIT invitational",
     "content": "Madison west gets accepted into MIT invitational after kevin camps the sign up spreadsheet.\n\nSuch a great occasion.\n\n![THE MIT building. The one you think about when you hear MIT](../media/blog/mit.jpg)\n\nWhere we are going on January 20th. ",
     "next": "whats-next"
+  },
+  "whats-next": {
+    "title": "What's Next?",
+    "content": "NATS!!! We're gonna win state this time, beat those marquette private school kids",
+    "previous": "mit-accepted",
+    "next": "website-live"
+  },
+  "website-live": {
+    "title": "This website is now live!",
+    "content": "We all love testing in production, and now after testing in production, this site is now up!!!",
+    "previous": "whats-next"
   }
 }

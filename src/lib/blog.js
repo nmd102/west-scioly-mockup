@@ -6,7 +6,12 @@ export const items = [
   },
   {
     title: "What's next?",
-    description: "What happens next? Maybe this website will have actual functionaly, contents, and oh no the website went down l + ratio\nhey its back up",
+    description: "What happens next? Maybe this website will have actual functionality, contents, and the people who maintain it might even fix the broken css",
     slug: "whats-next"
+  },
+  {
+    title: "This website is now live",
+    description: "This website actually got hosted!",
+    slug: "website-live"
   }
 ]
