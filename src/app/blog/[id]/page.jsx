@@ -11,7 +11,7 @@ export function generateStaticParams() {
 }
 
 export let metadata = {
-    title: "Broken!!!!!",
+    title: "Blog | [WHSO]",
     description: "Read all about it on the WHSO blog"
 }
 export default function BlogEntry({ params }) {

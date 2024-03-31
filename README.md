@@ -11,6 +11,6 @@ export const dynamicParams = false;
 For some reason these break the blog `[id]` pages on the dev server, but they work fine on the website. Please remember to uncomment these lines when you create a pull request.
 
 Some bugs you may want to fix are:
-1. The description of the home page is current `[object Object]`, you can see if you can fix that
-2. The links just below the title on the home pages are really tiny, you can see if you can make them bigger
+- [x] The description of the home page is current `[object Object]`, you can see if you can fix that 
+- [ ] The links just below the title on the home pages are really tiny, you can see if you can make them bigger
 
