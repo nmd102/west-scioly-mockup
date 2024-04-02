@@ -380,7 +380,6 @@
   background: #191919;
 }
 #main #gridSection {
-  min-height: 80vh;
   position: relative;
   box-sizing: border-box;
 }
