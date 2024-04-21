@@ -1,20 +1,17 @@
-import styles from '../../styles/Base.module.css'
-import Link from 'next/link';
-import { items } from "@/lib/blog"
-export const metadata = {
-    title: "Blog | [WHSO]",
-    description: "Follow the latest WHSO updates"
-}
+import styles from "@/styles/Base.module.css";
+import {photos} from "@/lib/photo-gallery/photos";
+import Link from "next/link";
 
-export default function Blog() {
+export default function PhotoGroup({group}) {
+    const items = photos[group].photos;
     return (<>
         <header className={styles.header}>
-            <h1>Blog and News</h1>
-            <p>Follow the recent WHSO updates</p>
+            <h1>{photos[group].title}</h1>
+            <p>{photos[group].description}</p>
         </header>
         <main className={`${styles.main} ${styles.lessons}`}>
             {items.map((item, key) => {
-                return (<Link key={key} href={`blog/${item.slug}`} className={"blogLink"}>
+                return (<Link key={key} href={`${group}/${item.id}`} className={"blogLink"}>
                     <button className={styles.lessonCard}>
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>

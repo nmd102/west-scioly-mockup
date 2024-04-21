@@ -1,6 +1,7 @@
-import styles from '../../styles/InfoPage.module.css'
+import styles from '../../styles/Base.module.css'
 import { items } from "@/lib/photo-gallery"
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
     title: "Photo Gallery | [WHSO]",
@@ -25,10 +26,10 @@ export default function PhotoGallery() {
                         </div>
                         <p>{item.description}</p>
                     </div>
-                    <a href={item.link} target="_blank" rel="noreferrer">
+                    <Link href={item.link}>
                         <span>{item.displayLink}</span>
                         <Image src="media/arrow.svg" alt="arrow" width={100} height={100}/>
-                    </a>
+                    </Link>
                 </article>)
             })}
         </main>

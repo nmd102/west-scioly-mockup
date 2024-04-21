@@ -1,4 +1,4 @@
-import styles from '../../styles/InfoPage.module.css'
+import styles from '../../styles/Base.module.css'
 import { items } from "@/lib/sponsors"
 import Image from "next/image";
 

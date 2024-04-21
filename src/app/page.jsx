@@ -1,4 +1,4 @@
-import Home from "@/app/home";
+import Home from "@/components/home";
 
 export const metadata = {
     title: "West Science Olympiad",

@@ -302,8 +302,8 @@ export default function Home() {
                                 <div className={styles.inner}>
                                     <Image src="./media/idea.svg" alt="Lightbulb idea icon" width={500} height={500}/>
                                     <div>
-                                        <h3>         MWSO updates                      </h3>
-                                        <h3>          blog/news                </h3>
+                                        <h3>             get updates           </h3>
+                                        <h3>          blog/news          </h3>
                                     </div>
                                 </div>
                             </article>
