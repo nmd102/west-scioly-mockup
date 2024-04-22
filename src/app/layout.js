@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 export const dynamicParams = false;
 
 export const metadata = {
-    metadataBase: new URL("https://ndm102.github.io/west-scioly-mockup"),
+    metadataBase: new URL("https://ndm102.github.io"),
 }
 
 export default function RootLayout({ children }) {
