@@ -22,6 +22,7 @@ export default function BlogEntry({ params }) {
         <main id={styles.page}>
             <div id={styles.content}>
                 <h1>{info.title}</h1>
+                <i>{info.date}</i>
                 <ReactMarkdown rehypePlugins={[rehypeRaw]}>{info.content}</ReactMarkdown>
 
                 <div id={styles.bottomButtons}>
