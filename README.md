@@ -15,7 +15,8 @@ For some reason these break the blog `[id]` pages on the dev server, but they wo
 Please remember to uncomment these lines when you create a pull request.
 
 If you want to add a blog post, add a .md file to the posts folder located at `src/lib/blog/posts`. 
-The name of the markdown file is the id that it will be located at (eg. mit-accepted will be located at /blog/mit-accepted).
+The name of the markdown file is the id that it will be located at
+(e.g., mit-accepted will be located at /blog/mit-accepted).
 The markdown should be in the following format:
 ```markdown
 # Title
@@ -23,4 +24,4 @@ _date_
 
 content
 ```
-date will be in the format `_m/d/y_`. Please be sure to run `blog-loader.js` to update the blogs.json file.
+Date will be in the format `_month/day/year_`. Please be sure to run `blog-loader.dart` to update the blogs.json file.
