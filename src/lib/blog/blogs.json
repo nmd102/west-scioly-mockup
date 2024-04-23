@@ -1,14 +1,1 @@
-{
-  "mit-accepted": {
-    "title": "Madison West gets accepted into MIT invitational",
-    "content": "Madison west gets accepted into MIT invitational after kevin camps the sign up spreadsheet.\n\nSuch a great occasion.\n\n![THE MIT building. The one you think about when you hear MIT](../media/blog/mit.jpg)<br>Where we are going on January 20th. ",
-    "date": "9/22/23",
-    "next": "website-live"
-  },
-  "website-live": {
-    "title": "This website is now live!",
-    "content": "We all love testing in production, and now after testing in production, this site is now up!!!",
-    "date": "3/29/24",
-    "previous": "mit-accepted"
-  }
-}
+{"mit-accepted":{"title":"Madison west gets accepted into the MIT invitational","date":"9/22/23","content":"Madison west gets accepted into the MIT invitational after kevin camps the sign-up spreadsheet.\n\nSuch a great occasion.\n\n![THE MIT building. The one you think about when you hear MIT](../media/blog/mit.jpg)<br>Where we are going on January 20th. ","next":"website-live"},"website-live":{"title":"This website is now live!","date":"3/29/24","content":"We all love testing in production, and now after testing in production, this site is now up!!!","previous":"mit-accepted"}}
