@@ -1,6 +1,6 @@
 import styles from '../../styles/Base.module.css'
 import Link from 'next/link';
-import { items } from "@/lib/blog"
+import items from '@/lib/blog.json'
 export const metadata = {
     title: "Blog | [WHSO]",
     description: "Follow the latest WHSO updates"

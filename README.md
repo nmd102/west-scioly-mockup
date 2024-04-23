@@ -20,8 +20,11 @@ The name of the markdown file is the id that it will be located at
 The markdown should be in the following format:
 ```markdown
 # Title
+subtitle
+
 _date_
 
 content
 ```
+Please make sure you follow this format exactly, otherwise the interpreter will fail.
 Date will be in the format `_month/day/year_`. Please be sure to run `blog-loader.dart` to update the blogs.json file.

@@ -1,4 +1,6 @@
 # Madison west gets accepted into the MIT invitational
+Madison West High School gets accepted to the MIT tournament! Read more
+
 _9/22/23_
 
 Madison west gets accepted into the MIT invitational after kevin camps the sign-up spreadsheet.

@@ -28,6 +28,7 @@ void main() async {
   } catch (e) {
     print(e.toString());
   }
+  var descriptions = [];
   var data = [];
   List<Date> dates = [];
   for (final file in files) {
@@ -36,7 +37,8 @@ void main() async {
     final id = file.replaceAll("posts/", "").replaceAll(".md", "");
     var lines = text.split("\n");
     var title = lines[0].replaceAll("# ", "");
-    var date = lines[1].replaceAll("_", "");
+    var subtitle = lines[1];
+    var date = lines[3].replaceAll("_", "");
     var dateList = date.split("/");
     var dateObject = Date(
         int.parse(dateList[0]),
@@ -44,7 +46,12 @@ void main() async {
         int.parse(dateList[2])
     );
     dates.add(dateObject);
-    var body = lines.sublist(3).join("\n");
+    descriptions.add({
+      'title': title,
+      'description': subtitle,
+      'slug': id
+    });
+    var body = lines.sublist(5).join("\n");
     var post = {};
     post[id] = {
       'title': title,
@@ -53,6 +60,12 @@ void main() async {
     };
     data.add(post);
   }
+  final descriptionsEncoded = json.encode(descriptions);
+  var desc = File('../blog.json');
+  var descSink = desc.openWrite();
+  descSink.write(descriptionsEncoded);
+  await descSink.flush();
+  await descSink.close();
   for (int i = 0; i < dates.length-1; i++) {
     var min_idx = i;
     for (int j = i+1; j < dates.length; j++) {
