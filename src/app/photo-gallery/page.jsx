@@ -1,11 +1,10 @@
 import styles from '../../styles/Base.module.css'
-import { items } from "@/lib/photo-gallery"
+import {items} from "@/lib/photo-gallery"
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Photo Gallery | [WHSO]",
-    description: "Photo Gallery"
+    title: "Photo Gallery | [WHSO]", description: "Photo Gallery"
 }
 
 export default function PhotoGallery() {
@@ -22,7 +21,8 @@ export default function PhotoGallery() {
                             <h2>{item.title}</h2>
                         </div>
                         <div>
-                            {item.icon && <Image src={item.icon} width={item.width} height={item.height} alt={`${item.title} logo`}/>}
+                            {item.icon && <Image src={item.icon} width={item.width} height={item.height}
+                                                 alt={`${item.title} logo`}/>}
                         </div>
                         <p>{item.description}</p>
                     </div>

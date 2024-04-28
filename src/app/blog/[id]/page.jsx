@@ -11,11 +11,10 @@ export function generateStaticParams() {
 }
 
 export let metadata = {
-    title: "Blog | [WHSO]",
-    description: "Read all about it on the WHSO blog"
+    title: "Blog | [WHSO]", description: "Read all about it on the WHSO blog"
 }
-export default function BlogEntry({ params }) {
-    const { id } = params;
+export default function BlogEntry({params}) {
+    const {id} = params;
     const info = blogs[id];
     metadata.title = info.title;
     return (<>
@@ -26,22 +25,14 @@ export default function BlogEntry({ params }) {
                 <ReactMarkdown rehypePlugins={[rehypeRaw]}>{info.content}</ReactMarkdown>
 
                 <div id={styles.bottomButtons}>
-                    {info.previous &&
-                        <Link href={info.previous}>
-                            <button className="btn">Previous</button>
-                        </Link>
-                    }
-                    {!info.previous &&
-                        <button className="btn" disabled>Previous</button>
-                    }
-                    {info.next &&
-                        <Link href={info.next}>
-                            <button className="btn">Next</button>
-                        </Link>
-                    }
-                    {!info.next &&
-                        <button className="btn" disabled>Next</button>
-                    }
+                    {info.previous && <Link href={info.previous}>
+                        <button className="btn">Previous</button>
+                    </Link>}
+                    {!info.previous && <button className="btn" disabled>Previous</button>}
+                    {info.next && <Link href={info.next}>
+                        <button className="btn">Next</button>
+                    </Link>}
+                    {!info.next && <button className="btn" disabled>Next</button>}
                 </div>
             </div>
         </main>

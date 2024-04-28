@@ -9,14 +9,12 @@ export const metadata = {
     metadataBase: new URL("https://nmd102.github.io"),
 }
 
-export default function RootLayout({ children }) {
-    return (
-        <html lang="en">
+export default function RootLayout({children}) {
+    return (<html lang="en">
         <body>
-            <Navbar />
-            {children}
-            <Footer />
+        <Navbar/>
+        {children}
+        <Footer/>
         </body>
-        </html>
-    )
+        </html>)
 }

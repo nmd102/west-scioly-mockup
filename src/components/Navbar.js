@@ -1,28 +1,22 @@
 'use client'
 import Link from 'next/link'
 
-import { gsap } from "gsap/dist/gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import {gsap} from "gsap/dist/gsap";
+import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
+import React, {useEffect, useRef} from "react";
 
 gsap.registerPlugin(ScrollTrigger);
-
-import React, { useEffect, useRef } from "react";
 
 export default function Navbar() {
     const nav = useRef();
     useEffect(() => {
         gsap.to(nav.current, {
-            y: "8vh",
-            scrollTrigger: { //error here
-                trigger: nav.current,
-                scrub: true,
-                start: "top top",
-                end: "bottom+=100 top",
+            y: "8vh", scrollTrigger: { //error here
+                trigger: nav.current, scrub: true, start: "top top", end: "bottom+=100 top",
             }
         })
     }, []);
-    return (
-        <nav ref={nav}>
+    return (<nav ref={nav}>
             <Link href="/" className="logo">
                 <h2>[West<span className="oring"> Sci O</span><span className="close">]</span></h2>
             </Link>
@@ -39,6 +33,5 @@ export default function Navbar() {
                 </Link>
 
             </div>
-        </nav>
-    )
+        </nav>)
 }

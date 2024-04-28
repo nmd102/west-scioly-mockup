@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 export default function Footer() {
-    return (
-        <footer>
+    return (<footer>
             <Link href="/" className="logo">
                 <h2>[W<span className="oring">est High</span><span className="close"> Sci Oly]</span></h2>
             </Link>
@@ -11,6 +10,5 @@ export default function Footer() {
             </a>
 
             <p>(617)-710-9501</p>
-        </footer>
-    )
+        </footer>)
 }

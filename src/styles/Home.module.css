@@ -651,5 +651,10 @@
     background: #191919;
   }
 }
-
+#main #moreInfo article a {
+  color: black;
+}
+#main #moreInfo article ul {
+  list-style-type: "- ";
+}
 /*# sourceMappingURL=Home.module.css.map */

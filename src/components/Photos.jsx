@@ -1,14 +1,12 @@
-import {photos} from '@/lib/photo-gallery/photos'
-import {ids} from "@/lib/photo-gallery/photos";
+import {ids, photos} from '@/lib/photo-gallery/photos'
 import styles from "@/styles/Blog.module.css"
 import Link from 'next/link'
 import Image from "next/image";
 
 export const metadata = {
-    title: "Blog | [WHSO]",
-    description: "Read all about it on the WHSO blog"
+    title: "Blog | [WHSO]", description: "Read all about it on the WHSO blog"
 }
-export default function PhotosEntry({ section, id }) {
+export default function PhotosEntry({section, id}) {
     const info = photos[section].photos;
     const photo = info[ids[section][id]];
     metadata.title = info.title;
@@ -16,25 +14,17 @@ export default function PhotosEntry({ section, id }) {
         <main id={styles.page}>
             <div id={styles.content}>
                 <h1>{photo.title}</h1>
-                <Image src={photo.image} width={500} height={500}  alt={photo.id}/>
+                <Image src={photo.image} width={500} height={500} alt={photo.id}/>
                 <p>{photo.description}</p>
                 <div id={styles.bottomButtons}>
-                    {info.previous &&
-                        <Link href={photo.previous}>
-                            <button className="btn">Previous</button>
-                        </Link>
-                    }
-                    {!photo.previous &&
-                        <button className="btn" disabled>Previous</button>
-                    }
-                    {photo.next &&
-                        <Link href={photo.next}>
-                            <button className="btn">Next</button>
-                        </Link>
-                    }
-                    {!photo.next &&
-                        <button className="btn" disabled>Next</button>
-                    }
+                    {info.previous && <Link href={photo.previous}>
+                        <button className="btn">Previous</button>
+                    </Link>}
+                    {!photo.previous && <button className="btn" disabled>Previous</button>}
+                    {photo.next && <Link href={photo.next}>
+                        <button className="btn">Next</button>
+                    </Link>}
+                    {!photo.next && <button className="btn" disabled>Next</button>}
                 </div>
             </div>
         </main>

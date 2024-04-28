@@ -2,7 +2,7 @@ const PATH = "../../media/photo_gallery/";
 export const photos = {
     "kevin-bao-2023": {
         title: "Kevin Bao 2023",
-        description: "See lots of photos of kevin!",
+        description: "See lots of photos of Kevin",
         photos: [
             {
                 id: "kevin-bao",

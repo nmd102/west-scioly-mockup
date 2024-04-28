@@ -1,11 +1,11 @@
 let PATH = "media/photo_gallery/";
 export const items = [
-  {
-    title: "kevin bao 2023",
-    icon: PATH + "kevin-bao-2023/kevin.JPG",
-    description: "kevin for president",
-    link: "/photo-gallery/kevin-bao-2023",
-    width: 500,
-    height: 500
-  }
+    {
+        title: "Kevin Bao 2023",
+        icon: PATH + "kevin-bao-2023/kevin.JPG",
+        description: "See lots of photos of Kevin",
+        link: "/photo-gallery/kevin-bao-2023",
+        width: 500,
+        height: 500
+    }
 ]

@@ -3,8 +3,7 @@ import PhotoGroup from "@/components/PhotoGroup";
 import PhotosEntry from "@/components/Photos";
 
 export const metadata = {
-    title: "Photo Gallery | [WHSO]",
-    description: "Photo Gallery"
+    title: "Photo Gallery | [WHSO]", description: "Photo Gallery"
 
 }
 
@@ -21,11 +20,11 @@ export function generateStaticParams() {
 
 export default function Photos({params}) {
     const {id} = params;
-    if(id.length === 1) {
+    if (id.length === 1) {
         metadata.title = `${photos[id[0]].title} | [WHSO] Photo Gallery`;
         metadata.description = photos[id[0]].description;
         return <PhotoGroup group={id[0]}/>
     } else {
-        return <PhotosEntry section={id[0]} id={id[1]} />
+        return <PhotosEntry section={id[0]} id={id[1]}/>
     }
 }

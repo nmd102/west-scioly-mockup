@@ -1,5 +1,5 @@
-import 'dart:io';
 import 'dart:convert';
+import 'dart:io';
 
 class Date {
   final int year;
@@ -7,6 +7,7 @@ class Date {
   final int day;
 
   Date(this.month, this.day, this.year);
+
   String toString() {
     return '${day}/${month}/${year}';
   }
@@ -21,8 +22,6 @@ void main() async {
     await for (final FileSystemEntity f in dirList) {
       if (f is File) {
         files.add(f.path);
-      } else if (f is Directory) {
-        print('Found dir ${f.path}');
       }
     }
   } catch (e) {
@@ -41,23 +40,12 @@ void main() async {
     var date = lines[3].replaceAll("_", "");
     var dateList = date.split("/");
     var dateObject = Date(
-        int.parse(dateList[0]),
-        int.parse(dateList[1]),
-        int.parse(dateList[2])
-    );
+        int.parse(dateList[0]), int.parse(dateList[1]), int.parse(dateList[2]));
     dates.add(dateObject);
-    descriptions.add({
-      'title': title,
-      'description': subtitle,
-      'slug': id
-    });
+    descriptions.add({'title': title, 'description': subtitle, 'slug': id});
     var body = lines.sublist(5).join("\n");
     var post = {};
-    post[id] = {
-      'title': title,
-      'date': date,
-      'content': body
-    };
+    post[id] = {'title': title, 'date': date, 'content': body};
     data.add(post);
   }
   final descriptionsEncoded = json.encode(descriptions);
@@ -66,9 +54,9 @@ void main() async {
   descSink.write(descriptionsEncoded);
   await descSink.flush();
   await descSink.close();
-  for (int i = 0; i < dates.length-1; i++) {
+  for (int i = 0; i < dates.length - 1; i++) {
     var min_idx = i;
-    for (int j = i+1; j < dates.length; j++) {
+    for (int j = i + 1; j < dates.length; j++) {
       if (dates[j].year < dates[min_idx].year) {
         min_idx = j;
       } else if (dates[j].year == dates[min_idx].year) {
@@ -88,12 +76,12 @@ void main() async {
     dates[min_idx] = dates[i];
     dates[i] = tmp;
   }
-  for(var i = 0; i < data.length; i++) {
-    if(i != data.length-1) {
-      data[i][data[i].keys.first]['next'] = data[i+1].keys.first;
+  for (var i = 0; i < data.length; i++) {
+    if (i != data.length - 1) {
+      data[i][data[i].keys.first]['next'] = data[i + 1].keys.first;
     }
-    if(i != 0) {
-      data[i][data[i].keys.first]['previous'] = data[i-1].keys.first;
+    if (i != 0) {
+      data[i][data[i].keys.first]['previous'] = data[i - 1].keys.first;
     }
   }
   var json_val = {};
