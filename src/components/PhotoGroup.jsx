@@ -1,5 +1,5 @@
 import styles from "@/styles/Base.module.css";
-import {photos} from "@/lib/photo-gallery/photos";
+import photos from "@/lib/photo-gallery/photos.json";
 import Link from "next/link";
 
 export default function PhotoGroup({group}) {

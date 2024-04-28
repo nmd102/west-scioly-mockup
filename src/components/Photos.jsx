@@ -1,4 +1,5 @@
-import {ids, photos} from '@/lib/photo-gallery/photos'
+import photos from '@/lib/photo-gallery/photos.json'
+import ids from '@/lib/photo-gallery/ids.json'
 import styles from "@/styles/Blog.module.css"
 import Link from 'next/link'
 import Image from "next/image";
@@ -14,10 +15,10 @@ export default function PhotosEntry({section, id}) {
         <main id={styles.page}>
             <div id={styles.content}>
                 <h1>{photo.title}</h1>
-                <Image src={photo.image} width={500} height={500} alt={photo.id}/>
+                <Image src={photo.image} width={photo.width} height={photo.height} alt={photo.title}/>
                 <p>{photo.description}</p>
                 <div id={styles.bottomButtons}>
-                    {info.previous && <Link href={photo.previous}>
+                    {photo.previous && <Link href={photo.previous}>
                         <button className="btn">Previous</button>
                     </Link>}
                     {!photo.previous && <button className="btn" disabled>Previous</button>}

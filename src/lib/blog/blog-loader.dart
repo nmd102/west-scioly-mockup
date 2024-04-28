@@ -1,3 +1,7 @@
+// This file loads the blogs from the .md files in the posts directory
+// Made sure to run it after you make any changes
+// When making a post, make sure to follow the format specified in the README
+
 import 'dart:convert';
 import 'dart:io';
 

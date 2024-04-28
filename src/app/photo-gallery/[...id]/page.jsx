@@ -1,4 +1,4 @@
-import {photos} from "@/lib/photo-gallery/photos";
+import photos from "@/lib/photo-gallery/photos.json";
 import PhotoGroup from "@/components/PhotoGroup";
 import PhotosEntry from "@/components/Photos";
 
