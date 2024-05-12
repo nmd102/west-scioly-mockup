@@ -21,15 +21,18 @@ export default function Navbar() {
                 <h2>[West<span className="oring"> Sci O</span><span className="close">]</span></h2>
             </Link>
             <div className="navLinks">
-                <Link href="/blog">
+                <Link href={"/blog"}>
                     <span>blog/news</span>
                 </Link>
-                <Link href="/photo-gallery">
+                <Link href={"/photo-gallery"}>
                     <span>photo gallery</span>
                 </Link>
 
-                <Link href="/sponsors">
+                <Link href={"/sponsors"}>
                     <span>sponsor us</span>
+                </Link>
+                <Link href={"/about"}>
+                    <span>about us</span>
                 </Link>
 
             </div>

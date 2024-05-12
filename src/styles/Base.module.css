@@ -2402,5 +2402,8 @@
     left: -15%;
     transform: rotate(10deg);
 }
+.main .white {
+    background-color: white;
+}
 
 /*# sourceMappingURL=Base.module.css.map */
