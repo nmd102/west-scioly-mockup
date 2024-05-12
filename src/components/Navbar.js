@@ -11,7 +11,7 @@ export default function Navbar() {
     const nav = useRef();
     useEffect(() => {
         gsap.to(nav.current, {
-            y: "8vh", scrollTrigger: { //error here
+            y: "8vh", scrollTrigger: {
                 trigger: nav.current, scrub: true, start: "top top", end: "bottom+=100 top",
             }
         })

@@ -188,7 +188,7 @@ export default function Home() {
             <main id={styles.main}>
                 <section id={styles.gridSection}>
                     <div id={styles.grid}>
-                        <Link href="/blog">
+                        <Link href={"/blog"}>
                             <article className={"link2"}>
                                 <div className={styles.outer}>
                                     <h2>blog/news</h2>
@@ -204,7 +204,7 @@ export default function Home() {
                                 </div>
                             </article>
                         </Link>
-                        <Link href="/photo-gallery">
+                        <Link href={"/photo-gallery"}>
                             <article className="link1">
                                 <div className={styles.outer}>
                                     <h2>photo gallery</h2>
@@ -222,7 +222,7 @@ export default function Home() {
                         </Link>
 
 
-                        <Link href="/sponsors">
+                        <Link href={"/sponsors"}>
                             <article className="link3">
                                 <div className={styles.outer}>
                                     <h2>give us money</h2>
@@ -239,7 +239,23 @@ export default function Home() {
                                 </div>
                             </article>
                         </Link>
+                        <Link href={"/about"}>
+                            <article className="link4">
+                                <div className={styles.outer}>
+                                    <h2>About WHSO</h2>
+                                    <Image src="./media/arrow.svg" className={styles.arrow} alt="Arrow right" width={50}
+                                           height={50}/>
+                                </div>
+                                <div className={styles.inner}>
+                                    <Image src="./media/about.svg" alt="About icon" width={500} height={500}/>
+                                    <div>
+                                        <h3> learn more </h3>
+                                        <h3> about </h3>
 
+                                    </div>
+                                </div>
+                            </article>
+                        </Link>
                     </div>
                 </section>
 
