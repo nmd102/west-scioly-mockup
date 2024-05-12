@@ -54,6 +54,16 @@ export default function Sponsors() {
                                         <Image src="./media/socials/discord.svg" alt="Discord Logo" width={50}
                                                height={50}/>
                                     </a>}
+                                {item.socials.facebook &&
+                                    <a href={item.socials.facebook.link} target="_blank" rel="noreferrer">
+                                        <Image src="./media/socials/facebook.svg" alt="Discord Logo" width={50}
+                                               height={50}/>
+                                    </a>}
+                                {item.socials.linkedin &&
+                                    <a href={item.socials.linkedin.link} target="_blank" rel="noreferrer">
+                                        <Image src="./media/socials/linkedin.svg" alt="Linkedin Logo" width={50}
+                                               height={50}/>
+                                    </a>}
                             </div>
                         </div>
                         <div>

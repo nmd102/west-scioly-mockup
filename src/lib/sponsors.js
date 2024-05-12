@@ -1,18 +1,18 @@
 export const items = [
     {
-        name: "Sponsor 1",
+        name: "Vogel Brothers Building Co.",
         tags: [
-            "money",
-            "free",
-            "w sponsor",
+            "2023-2024",
+            "sponsor",
         ],
-        description: "something soon",
-        website: "https://example.com",
-        link: "https://example.com",
+        description: "Construction Services for WI and FL",
+        website: "https://www.vogelbldg.com/",
+        link: "https://www.vogelbldg.com/",
         socials: {
-            discord: {link: "https://discord.com/users/"},
+            facebook: {link: "https://www.facebook.com/VogelBrosBuilding"},
+            linkedin: {link: "https://www.linkedin.com/company/vogel-bros--building-co-"},
         },
-        price: "they gave us $12345"
+        price: "They helped us pay for bus prices"
     },
 
 ]
