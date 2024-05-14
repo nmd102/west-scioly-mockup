@@ -6,7 +6,7 @@ export const items = [
             "sponsor",
         ],
         description: "Construction Services for WI and FL",
-        website: "https://www.vogelbldg.com/",
+        website: "vogelbldg.com",
         link: "https://www.vogelbldg.com/",
         socials: {
             facebook: {link: "https://www.facebook.com/VogelBrosBuilding"},
@@ -14,5 +14,4 @@ export const items = [
         },
         price: "They helped us pay for bus prices"
     },
-
 ]

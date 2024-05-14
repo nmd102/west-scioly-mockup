@@ -11,7 +11,7 @@ export default function About() {
                 <p>Madison West Science Olympiad</p>
             </header>
             <main className={styles.main}>
-                    <p id={styles.white}>
+                    <p>
                         Madison West Science Olympiad is a student-led organization that competes in the Science
                         Olympiad
                         competition. We are a group of students who are passionate about science and enjoy learning

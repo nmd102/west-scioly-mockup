@@ -1813,7 +1813,7 @@
 .pa .paCard .info .socials {
     display: flex;
     flex-direction: row;
-    gap: 0.75rem;
+    gap: 0;
 }
 
 .pa .paCard .info .socials img {
@@ -2401,9 +2401,6 @@
 .lessons .lessonCard:hover img {
     left: -15%;
     transform: rotate(10deg);
-}
-.main .white {
-    background-color: white;
 }
 
 /*# sourceMappingURL=Base.module.css.map */
