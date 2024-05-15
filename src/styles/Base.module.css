@@ -1827,10 +1827,6 @@
     opacity: 0.8;
 }
 
-.pa .paCard:nth-of-type(1) {
-    background: black;
-}
-
 .button {
     border-radius: 16px;
 }
@@ -2401,6 +2397,22 @@
 .lessons .lessonCard:hover img {
     left: -15%;
     transform: rotate(10deg);
+}
+
+
+.main .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    animation-name: fade-down;
+    animation-duration: 1s;
+    animation-delay: 1.9166666667s;
+    animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation-fill-mode: forwards;
+    position: relative;
+    opacity: 0;
 }
 
 /*# sourceMappingURL=Base.module.css.map */

@@ -687,7 +687,6 @@
         position: absolute;
         top: -1px;
         left: -1.1rem;
-        background: #80b3ff;
     }
 
     #main #moreInfo article h2:after {
@@ -697,7 +696,6 @@
         position: absolute;
         bottom: -1px;
         left: -1.1rem;
-        background: #80b3ff;
     }
 }
 

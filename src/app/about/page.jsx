@@ -10,14 +10,14 @@ export default function About() {
                 <h1>About</h1>
                 <p>Madison West Science Olympiad</p>
             </header>
-            <main className={styles.main}>
-                    <p>
-                        Madison West Science Olympiad is a student-led organization that competes in the Science
-                        Olympiad
-                        competition. We are a group of students who are passionate about science and enjoy learning
-                        about
-                        various scientific topics. We compete in regional, state, and national competitions.
-                    </p>
-            </main>
-        </>)
+        <main className={`${styles.main}`}>
+            <p className={styles.about}>
+                Madison West Science Olympiad is a student-led organization that competes in the Science
+                Olympiad
+                competition. We are a group of students who are passionate about science and enjoy learning
+                about
+                various scientific topics. We compete in regional, state, and national competitions.
+            </p>
+        </main>
+    </>)
 }
