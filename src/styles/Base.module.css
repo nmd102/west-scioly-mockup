@@ -1872,7 +1872,7 @@
     justify-content: center;
 }
 
-.lessons .lessonCard:nth-of-type(1) {
+.lessons .blogLink:nth-of-type(1) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 1.5833333333s;
@@ -1882,7 +1882,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(2) {
+.lessons .blogLink:nth-of-type(2) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 1.9166666667s;
@@ -1892,7 +1892,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(3) {
+.lessons .blogLink:nth-of-type(3) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 2.25s;
@@ -1902,7 +1902,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(4) {
+.lessons .blogLink:nth-of-type(4) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 2.5833333333s;
@@ -1912,7 +1912,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(5) {
+.lessons .blogLink:nth-of-type(5) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 2.9166666667s;
@@ -1922,7 +1922,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(6) {
+.lessons .blogLink:nth-of-type(6) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 3.25s;
@@ -1932,7 +1932,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(7) {
+.lessons .blogLink:nth-of-type(7) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 3.5833333333s;
@@ -1942,7 +1942,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(8) {
+.lessons .blogLink:nth-of-type(8) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 3.9166666667s;
@@ -1952,7 +1952,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(9) {
+.lessons .blogLink:nth-of-type(9) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 4.25s;
@@ -1962,7 +1962,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(10) {
+.lessons .blogLink:nth-of-type(10) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 4.5833333333s;
@@ -1972,7 +1972,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(11) {
+.lessons .blogLink:nth-of-type(11) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 4.9166666667s;
@@ -1982,7 +1982,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(12) {
+.lessons .blogLink:nth-of-type(12) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 5.25s;
@@ -1992,7 +1992,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(13) {
+.lessons .blogLink:nth-of-type(13) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 5.5833333333s;
@@ -2002,7 +2002,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(14) {
+.lessons .blogLink:nth-of-type(14) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 5.9166666667s;
@@ -2012,7 +2012,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(15) {
+.lessons .blogLink:nth-of-type(15) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 6.25s;
@@ -2022,7 +2022,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(16) {
+.lessons .blogLink:nth-of-type(16) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 6.5833333333s;
@@ -2032,7 +2032,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(17) {
+.lessons .blogLink:nth-of-type(17) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 6.9166666667s;
@@ -2042,7 +2042,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(18) {
+.lessons .blogLink:nth-of-type(18) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 7.25s;
@@ -2052,7 +2052,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(19) {
+.lessons .blogLink:nth-of-type(19) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 7.5833333333s;
@@ -2062,7 +2062,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(20) {
+.lessons .blogLink:nth-of-type(20) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 7.9166666667s;
@@ -2072,7 +2072,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(21) {
+.lessons .blogLink:nth-of-type(21) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 8.25s;
@@ -2082,7 +2082,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(22) {
+.lessons .blogLink:nth-of-type(22) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 8.5833333333s;
@@ -2092,7 +2092,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(23) {
+.lessons .blogLink:nth-of-type(23) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 8.9166666667s;
@@ -2102,7 +2102,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(24) {
+.lessons .blogLink:nth-of-type(24) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 9.25s;
@@ -2112,7 +2112,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(25) {
+.lessons .blogLink:nth-of-type(25) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 9.5833333333s;
@@ -2122,7 +2122,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(26) {
+.lessons .blogLink:nth-of-type(26) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 9.9166666667s;
@@ -2132,7 +2132,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(27) {
+.lessons .blogLink:nth-of-type(27) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 10.25s;
@@ -2142,7 +2142,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(28) {
+.lessons .blogLink:nth-of-type(28) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 10.5833333333s;
@@ -2152,7 +2152,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(29) {
+.lessons .blogLink:nth-of-type(29) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 10.9166666667s;
@@ -2162,7 +2162,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(30) {
+.lessons .blogLink:nth-of-type(30) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 11.25s;
@@ -2172,7 +2172,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(31) {
+.lessons .blogLink:nth-of-type(31) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 11.5833333333s;
@@ -2182,7 +2182,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(32) {
+.lessons .blogLink:nth-of-type(32) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 11.9166666667s;
@@ -2192,7 +2192,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(33) {
+.lessons .blogLink:nth-of-type(33) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 12.25s;
@@ -2202,7 +2202,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(34) {
+.lessons .blogLink:nth-of-type(34) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 12.5833333333s;
@@ -2212,7 +2212,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(35) {
+.lessons .blogLink:nth-of-type(35) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 12.9166666667s;
@@ -2222,7 +2222,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(36) {
+.lessons .blogLink:nth-of-type(36) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 13.25s;
@@ -2232,7 +2232,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(37) {
+.lessons .blogLink:nth-of-type(37) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 13.5833333333s;
@@ -2242,7 +2242,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(38) {
+.lessons .blogLink:nth-of-type(38) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 13.9166666667s;
@@ -2252,7 +2252,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(39) {
+.lessons .blogLink:nth-of-type(39) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 14.25s;
@@ -2262,7 +2262,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(40) {
+.lessons .blogLink:nth-of-type(40) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 14.5833333333s;
@@ -2272,7 +2272,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(41) {
+.lessons .blogLink:nth-of-type(41) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 14.9166666667s;
@@ -2282,7 +2282,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(42) {
+.lessons .blogLink:nth-of-type(42) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 15.25s;
@@ -2292,7 +2292,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(43) {
+.lessons .blogLink:nth-of-type(43) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 15.5833333333s;
@@ -2302,7 +2302,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(44) {
+.lessons .blogLink:nth-of-type(44) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 15.9166666667s;
@@ -2312,7 +2312,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(45) {
+.lessons .blogLink:nth-of-type(45) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 16.25s;
@@ -2322,7 +2322,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(46) {
+.lessons .blogLink:nth-of-type(46) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 16.5833333333s;
@@ -2332,7 +2332,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(47) {
+.lessons .blogLink:nth-of-type(47) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 16.9166666667s;
@@ -2342,7 +2342,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(48) {
+.lessons .blogLink:nth-of-type(48) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 17.25s;
@@ -2352,7 +2352,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(49) {
+.lessons .blogLink:nth-of-type(49) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 17.5833333333s;
@@ -2362,7 +2362,7 @@
     opacity: 0;
 }
 
-.lessons .lessonCard:nth-of-type(50) {
+.lessons .blogLink:nth-of-type(50) {
     animation-name: fade-down;
     animation-duration: 1s;
     animation-delay: 17.9166666667s;
