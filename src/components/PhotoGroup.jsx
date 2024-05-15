@@ -11,7 +11,7 @@ export default function PhotoGroup({group}) {
         </header>
         <main className={`${styles.main} ${styles.lessons}`}>
             {items.map((item, key) => {
-                return (<Link key={key} href={`${group}/${item.id}`} className={"blogLink"}>
+                return (<Link key={key} href={`${group}/${item.id}`} className={styles.blogLink}>
                     <button className={styles.lessonCard}>
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>
