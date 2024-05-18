@@ -16,7 +16,7 @@ export default function About() {
                 Olympiad
                 competitions. We are a group of students who are passionate about science and enjoy learning
                 about
-                various scientific topics. We compete in regional, state, and national competitions.
+                various scientific topics. We compete in regional, state, and national competitions. Please check out the rest of our website!
             </p>
         </main>
     </>)
