@@ -14,7 +14,7 @@ export default function About() {
             <p className={styles.about}>
                 Madison West Science Olympiad is a student-led organization that competes in the Science
                 Olympiad
-                competition. We are a group of students who are passionate about science and enjoy learning
+                competitions. We are a group of students who are passionate about science and enjoy learning
                 about
                 various scientific topics. We compete in regional, state, and national competitions.
             </p>
