@@ -1,3 +1,5 @@
+// The page that is displayed when the user vies an individual page in the photo gallery
+
 import photos from '@/lib/photo-gallery/photos.json'
 import ids from '@/lib/photo-gallery/ids.json'
 import styles from "@/styles/Blog.module.css"

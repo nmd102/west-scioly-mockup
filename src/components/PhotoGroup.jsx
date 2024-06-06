@@ -1,3 +1,5 @@
+// The page that is displayed when the user goes to a photo group page in the photo gallery
+
 import styles from "@/styles/Base.module.css";
 import photos from "@/lib/photo-gallery/photos.json";
 import Link from "next/link";
